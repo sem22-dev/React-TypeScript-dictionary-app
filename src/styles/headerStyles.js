@@ -14,7 +14,7 @@ export const CustomizationWrapper = styled.div`
     display: flex;
     align-items: center;
     gap: 20px;
-    @media screen and (min-height: 768px) {
+    @media (min-width: 360px) and (max-width: 812px) {
         gap: 8px;
 }
 `

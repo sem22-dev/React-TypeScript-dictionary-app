@@ -16,8 +16,10 @@ export const PlayButton = styled(PlayArrowIcon)`
         color: #FFC109;
         cursor: pointer;
     }
-    @media screen and (min-height: 768px) {
+    @media (min-width: 360px) and (max-width: 812px)  {
         transform: scale(1.9);
+        width: 100px;
+    height: 100px;
     }
 `
 
@@ -32,7 +34,7 @@ export const PhoneticNameBox = styled.div`
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    @media screen and (min-height: 768px) {
+    @media (min-width: 360px) and (max-width: 812px)  {
        h1{
         font-size: 1.9em;
        }
@@ -42,7 +44,7 @@ export const PhoneticNameBox = styled.div`
 export const PhoneticName = styled.p`
     color : #DAA520;
     font-size: 2em;
-    @media screen and (min-height: 768px) {
+     @media (min-width: 360px) and (max-width: 812px)  {
         font-size: 1.4em;
     }
 `
@@ -50,9 +52,10 @@ export const PhoneticName = styled.p`
 export const Play = styled.button`
     width: 100px;
     height: 100px;
-    @media screen and (min-height: 768px) {
+     @media (min-width: 360px) and (max-width: 812px)  {
         width: 50px;
         height: 50px;
+
     }
 `
 export const LoadingDisplay = styled.div`
@@ -69,7 +72,7 @@ export const LoadingDisplay = styled.div`
         color: #838383;
     }
 
-    @media screen and (min-height: 768px) {
+     @media (min-width: 360px) and (max-width: 812px)  {
         h1{
         color: #DAA520;
         font-size: 1.6rem;
@@ -102,7 +105,7 @@ export const PartOfSpeech = styled.p`
     background-color: #E9E9E9;
   }
 
-  @media screen and (min-height: 768px) {
+   @media (min-width: 360px) and (max-width: 812px)  {
     font-size: 1.2rem;
     }
 `
@@ -113,7 +116,7 @@ export const MeaningText = styled.p`
     &.synonym{
         margin-bottom: none;
     }
-    @media screen and (min-height: 768px) {
+     @media (min-width: 360px) and (max-width: 812px)  {
     font-size: 1.2rem;
     }
 `

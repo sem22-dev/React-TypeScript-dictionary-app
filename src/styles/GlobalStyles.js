@@ -32,7 +32,7 @@ export const GlobalStyles = createGlobalStyle`
         &.example{
             color: #FFC109;
         }
-        @media screen and (min-height: 768px) {
+        @media (min-width: 360px) and (max-width: 812px)  {
             font-size: 1rem;
     }
     }

@@ -5,7 +5,7 @@ export const AppContainer = styled.div`
     max-width: 900px;
     margin: auto;
     padding: 50px;
-    @media screen and (min-height: 768px) {
+    @media (min-width: 360px) and (max-width: 812px) {
         padding: 20px;
 }
 `

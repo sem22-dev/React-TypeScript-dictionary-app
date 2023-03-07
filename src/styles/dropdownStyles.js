@@ -24,7 +24,7 @@ const FontSelectedBox = styled.div`
     &.showing .ArrowIcon {
         transform: rotate(180deg);
   }
-  @media screen and (min-height: 768px) {
+  @media (min-width: 360px) and (max-width: 812px) {
     gap: 10px;
   }
 `
