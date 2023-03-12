@@ -4,7 +4,7 @@ import logo from "../../icon/logo.svg"
 import { DropdownBox } from "./DropdownBox"
 import { DarkModeSwitch } from "./DarkModeSwitch"
 
-export const Header = (props) => {
+export const Header = (props:{handleClick: () => void, nightMode: boolean}) => {
     return(
         <HeaderContainer>
             <HeaderLogo src={logo} />

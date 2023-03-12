@@ -7,13 +7,12 @@ export const FindingsWrapper = styled.main`
 `
 
 export const PlayButton = styled(PlayArrowIcon)`
-    color:#FFD700;
+    color:#0E8388;
     background-color: ${props => props.theme.playBg};
     border-radius: 50%;
     padding: 5px;
     transform: scale(2.8);
     &:hover{
-        color: #FFC109;
         cursor: pointer;
     }
     @media (min-width: 360px) and (max-width: 812px)  {
@@ -42,7 +41,7 @@ export const PhoneticNameBox = styled.div`
 `
 
 export const PhoneticName = styled.p`
-    color : #DAA520;
+    color : #0E8388;
     font-size: 2em;
      @media (min-width: 360px) and (max-width: 812px)  {
         font-size: 1.4em;
@@ -66,7 +65,7 @@ export const LoadingDisplay = styled.div`
     text-align: center;
     margin-top: 90px;
     h1{
-        color: #DAA520;
+        color: #0E8388;
     }
     h2{
         color: #838383;
@@ -74,7 +73,7 @@ export const LoadingDisplay = styled.div`
 
      @media (min-width: 360px) and (max-width: 812px)  {
         h1{
-        color: #DAA520;
+        color: #0E8388;
         font-size: 1.6rem;
         }
         h2{

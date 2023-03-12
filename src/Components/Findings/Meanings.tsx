@@ -1,7 +1,27 @@
 import React from "react"
 import { MeaningSection, PartOfSpeech, MeaningText, SynonymContainer, DefinitionContainer, SynonymList } from "../../styles/findingStyles"
 
-export function Meanings(props) {
+interface MeaningProps {
+    output: {
+      meanings: {
+        partOfSpeech: string;
+        definitions: {
+          definition: string;
+          example?: string;
+        }[];
+        synonyms: string[];
+      }[];
+    };
+  }
+
+  interface DefinitionListProps {
+    definitions: {
+      definition: string;
+      example?: string;
+    }[];
+  }
+
+export function Meanings(props: MeaningProps) {
 
     return(
        <>
@@ -22,7 +42,7 @@ export function Meanings(props) {
 
 
 //DefinitionList Component
-function DefinitionList({ definitions }) {
+function DefinitionList({ definitions}: DefinitionListProps ) {
     return(
         <DefinitionContainer>
             {definitions.map((item, index) => {
@@ -38,7 +58,12 @@ function DefinitionList({ definitions }) {
 
 
 //Synonyms Component
-function Synonyms({ synonyms }){
+
+interface SynonymsProps {
+    synonyms: string[];
+  }
+
+function Synonyms({ synonyms }: SynonymsProps){
     return(
         <>
            {synonyms.length ? (

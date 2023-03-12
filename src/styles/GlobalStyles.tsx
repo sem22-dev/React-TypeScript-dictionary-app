@@ -30,7 +30,7 @@ export const GlobalStyles = createGlobalStyle`
         margin-left: 40px;
         font-size: 18px;
         &.example{
-            color: #FFC109;
+            color: #0E8388;
         }
         @media (min-width: 360px) and (max-width: 812px)  {
             font-size: 1rem;
@@ -38,7 +38,7 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     .synonyms{
-        color:#FFC109;
+        color:#0E8388;
         font-size: 1.3rem;
     }
 `

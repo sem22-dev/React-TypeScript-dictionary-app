@@ -1,7 +1,8 @@
-import React from "react"
-import { SwitchBox, Circleswitch, DarkIcon } from "../../styles/DarkModeSwitch"
+import { SwitchBox, Circleswitch, DarkIcon } from "../../styles/darkModeSwitch"
 
-export const DarkModeSwitch = (props) => {
+
+
+export const DarkModeSwitch = (props:{handleClick: () => void, nightMode: boolean}) => {
 
     return(
         <>

@@ -9,18 +9,18 @@ export const SearchSection = () => {
     const [error, setError] = React.useState(false)
     const { word, setWord } = React.useContext(ThemeContext);
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
+    const handleSubmit = (event: React.FormEvent) => {
+        event.preventDefault();
         if (inputText) {
-          await setWord(inputText);
+          setWord(inputText);
           console.log(word)
         } else {
           setError(true);
         }
       };
 
-    function handleInputChange(e){
-        setInputText(e.target.value)
+    function handleInputChange(event: React.ChangeEvent<HTMLInputElement>){
+        setInputText(event.target.value)
         setError(false)
     }
 

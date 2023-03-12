@@ -48,9 +48,7 @@ const FontListBox = styled.div`
         transition: all 0.3s ease-in-out;
     }
     &.closing{
-        height: 0px;
-        opacity: 0;
-        transform: translateY(-200px);
+        display: none;
     }
 `
 

@@ -1,7 +1,14 @@
 import React from "react"
-import {SourceContainer, MeaningText, LinkImage} from "../../styles/findingStyles"
+import {SourceContainer, LinkImage} from "../../styles/findingStyles"
 
-export function Source(props) {
+
+interface Props {
+  output : {
+    sourceUrls : string[]
+  }
+}
+
+export function Source(props: Props) {
     return(
               <SourceContainer>
                 <p className="muted">Source</p>
