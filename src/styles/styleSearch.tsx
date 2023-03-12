@@ -13,7 +13,7 @@ export const SearchContainer = styled.form`
   border-radius: 1rem;
   background-color: ${props => props.theme.searchBg};
   :focus-within {
-    box-shadow: 0px 0px 0px 1px #D7C79E inset;
+    box-shadow: 0px 0px 0px 1px #0E8388 inset;
   }
 
   &.error {

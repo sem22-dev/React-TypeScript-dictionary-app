@@ -54,7 +54,7 @@ const FontListBox = styled.div`
 
 const FontText = styled.p`
     :hover {
-      color: #FFC107;
+      color: #0E8388;
     }
     &.FontList{padding: 7px;
     }
