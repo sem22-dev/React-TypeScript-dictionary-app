@@ -12,6 +12,7 @@ Live demo here :  https://react-dictionary-sem.vercel.app/
 
 # Technologies used
 - React
+- TypeScript
 - Styled Components
 - Material UI (for icons)
 - Axios (for API calls)
