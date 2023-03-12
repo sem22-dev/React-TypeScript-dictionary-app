@@ -1,4 +1,4 @@
-# React Dictionary Web App
+# React Dictionary Web App with TypeScript
 This is a React dictionary web app that allows users to search for word definitions.
 
 Live demo here :  https://react-dictionary-sem.vercel.app/
